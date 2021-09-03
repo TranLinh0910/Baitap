@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap");
-* {
-  margin: 0;
-  padding: 0;
+
+*{
+  box-sizing: border-box 
 }
 body {
   background-color: #cad3d3;
@@ -11,7 +11,7 @@ body {
 .container {
   margin: auto;
   padding: 5%;
-  width: 1200px;
+  max-width: 1200px;
 }
 .row {
   display: grid;
@@ -34,10 +34,13 @@ body {
   z-index: 100;
 }
 .price-1 {
-  font-size: 20px;
-  margin-top: 30px;
+  /* font-size: 20px;
+  margin-top: 30px; */
+  margin: auto;
+  padding: 25px;
 }
 .text-aline-1 {
+  margin-top: -15px;
   font-size: 8px;
   color: #99a9b5;
 }
@@ -70,18 +73,17 @@ body {
 }
 .text-img {
   position: absolute;
-  width: 100%;
-  height: 100%;
   top: 70px;
-  bottom: 0;
+  width: 100%;
   text-align: center;
   color: white;
   font-weight: 100;
 }
-.text-img h1 {
+.text-img h2 {
   font-weight: 100;
 }
 .text-aline-2 {
+  margin-top: -10px;
   font-size: 10px;
   font-weight: 10;
 }
@@ -163,7 +165,7 @@ body {
   border: 1px solid #32ad1e;
 }
 /*responsive*/
-@media all and (max-width: 700px) {
+@media only screen and (max-width: 700px) {
   .container {
     width: auto;
     margin: auto;
