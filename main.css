@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap");
 
-*{
-  box-sizing: border-box 
+* {
+  box-sizing: border-box;
 }
 body {
   background-color: #cad3d3;
@@ -112,6 +112,10 @@ body {
   font-size: 10px;
   color: #99a9b5;
   margin: 2px 0 20px 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
 }
 .list-text ul li {
   list-style: none;
